@@ -3,3 +3,13 @@
   justify-content: space-between;
   padding: 24px 150px;
 }
+
+.navLinks {
+  font-family: "Plus Jakarta Sans";
+  color: #04091e;
+  margin: 36px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+}

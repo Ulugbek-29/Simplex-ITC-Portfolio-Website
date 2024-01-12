@@ -1,0 +1,43 @@
+.heroContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 63px 150px;
+}
+
+.heroName {
+  font-size: 170px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 255px; /* 255px */
+  text-transform: uppercase;
+  position: relative;
+  margin-right: -80px;
+  line-height: 1;
+}
+
+.heroFirstName {
+  background: linear-gradient(269deg, #f43366 0.72%, #3c33ef 103.58%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heroLastName {
+  letter-spacing: -8.5px;
+}
+
+.heroLastLetter {
+  letter-spacing: -8.5px;
+  color: var(--color-white);
+}
+
+.heroText {
+  color: #666;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px; /* 165% */
+  margin-top: 30px;
+  margin-bottom: 63px;
+  padding-right: 30px;
+}

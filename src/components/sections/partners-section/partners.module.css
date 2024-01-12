@@ -1,0 +1,25 @@
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 109px;
+  padding-bottom: 138px;
+}
+
+.text {
+  color: rgba(18, 20, 29, 0.8);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 1px;
+  margin-bottom: 24px;
+}
+
+.partnerImages {
+  display: flex;
+  gap: 80px;
+}
