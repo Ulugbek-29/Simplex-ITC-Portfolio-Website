@@ -17,7 +17,7 @@ const Hero = () => {
         <Button>Book A Call</Button>
       </div>
       <div>
-        <img src="\images\hero.png"></img>
+        <img src="\images\hero-section-image\hero.png"></img>
       </div>
     </section>
   );
