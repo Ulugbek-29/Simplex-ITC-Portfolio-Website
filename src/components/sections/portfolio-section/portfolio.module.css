@@ -1,0 +1,66 @@
+.sectionContainer {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 175px;
+}
+
+.subTitle {
+  font-size: 14px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 160%; /* 22.4px */
+  letter-spacing: 2.1px;
+  background: linear-gradient(91deg, #5635dd -2.48%, #e63573 99.68%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title {
+  color: #131313;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 135%; /* 54px */
+}
+
+.topInnerContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 22px;
+}
+
+.row1 {
+  display: grid;
+  grid-template-columns: 3fr 2.5fr 1.5fr;
+  column-gap: 22px;
+}
+
+.row2 {
+  display: grid;
+  grid-template-columns: 1.5fr 2.5fr 3fr;
+  column-gap: 22px;
+}
+
+.row3 {
+  display: grid;
+  grid-template-columns: 3fr 2.5fr 1.5fr;
+  column-gap: 22px;
+}
+
+.card {
+  height: 292px;
+}
+
+.image1 {
+  object-fit: fill;
+  max-width: 463px;
+}

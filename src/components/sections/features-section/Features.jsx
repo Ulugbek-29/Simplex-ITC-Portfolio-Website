@@ -6,7 +6,7 @@ const Features = () => {
   return (
     <section className={styles.sectionContainer}>
       <div>
-        <p className={styles.subTitle}>Features</p>
+        <span className={styles.subTitle}>Features</span>
         <h2 className={styles.title}>
           <span>Giving Your Business</span> <span>Some Great Ideas</span>
         </h2>
